@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
-  <process:MainProcess xmi:id="_EXjbYPCkEe6crs5pVzrEjw" name="paddy" bonitaModelVersion="8">
+  <process:MainProcess xmi:id="_EXjbYPCkEe6crs5pVzrEjw" name="Project-Review" bonitaModelVersion="8">
     <elements xmi:type="process:Pool" xmi:id="_EXjbYfCkEe6crs5pVzrEjw" name="Pool">
       <elements xmi:type="process:Lane" xmi:id="_EXjbYvCkEe6crs5pVzrEjw" name="Employee lane" actor="_EXjbe_CkEe6crs5pVzrEjw">
         <elements xmi:type="process:StartEvent" xmi:id="_EXjbY_CkEe6crs5pVzrEjw" name="Start1" outgoing="_EXjbePCkEe6crs5pVzrEjw">
