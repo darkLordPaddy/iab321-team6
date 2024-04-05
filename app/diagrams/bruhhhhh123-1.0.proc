@@ -8,7 +8,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_-XtopfI_Ee6NWZxJ2h4BMA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_-XtopvI_Ee6NWZxJ2h4BMA" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_-Xtop_I_Ee6NWZxJ2h4BMA" name="Donald Duck" incoming="_-XtouPI_Ee6NWZxJ2h4BMA" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_-Xtop_I_Ee6NWZxJ2h4BMA" name="Daffy Duck" incoming="_-XtouPI_Ee6NWZxJ2h4BMA" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_-XtoqPI_Ee6NWZxJ2h4BMA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_-XtoqfI_Ee6NWZxJ2h4BMA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_-XtoqvI_Ee6NWZxJ2h4BMA" name="" content="" returnTypeFixed="true"/>
