@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.BasicProposal">
+            <fields>
+                <field type="TEXT" length="255" name="projectName" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="projectDescripition" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="engineerName" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="siteName" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="siteJurisdiction" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="costEstimate" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="dateSubmission" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.FinalApproval">
+            <fields>
+                <field type="TEXT" length="255" name="projectName" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="signitureApproved" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="governmentApproved" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="legalApproved" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="stakeholderApproved" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="environmentalApproved" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.FullProposal">
+            <fields>
+                <field type="TEXT" length="255" name="projectName" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="detailedprojectDescription" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="engineerName" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="siteJurisdicition" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="costEstimate" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="stakeholderAnalysis" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="stakeholderReview" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="environmentalAnalysis" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="environmentalReview" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="legalAnalysis" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="legalReview" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="newSite" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="newSiteName" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="governmentApproved" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="signitureApproved" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ProjectReview">
+            <fields>
+                <field type="TEXT" length="255" name="projectName" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="lessonLearned" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
